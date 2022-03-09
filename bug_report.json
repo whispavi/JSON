@@ -1,1 +1,20 @@
-
+{
+        "ID": "1.1",
+        "Title": "При нажатии на кнопку Войти через Google открывается страница с формой регистрации через Email",
+        "Pre-condition": "Открыта страница регистрации сайта: https://aliexpress.ru/",
+        "STR": [
+                "1. Нажать на кнопку Авторизация",
+                "2. В появившемся окне ""Войти через соцсети"" нажать на логотип Google"
+        ],
+        "Enviroment":
+        {
+                "OS": "Windows 10, 20H2",
+                "Browser": "Microsoft Edge, Версия 98.0.1108.50"
+        },
+        "Actual result": "При выборе регистрации Войти через соцсети нажать на лейбл Google открывается страница с формой регистрации через Email",
+        "Expected result": "При выборе регистрации Войти через соцсети нажать на лейбл Google открывается страница Войти в аккаунт Google",
+        "Severity": "Major",
+        "Priority": "Medium",     
+        "Author": "Vorobei V.",
+        "Attachments": "https://drive.google.com/file/d/1s4yRg5JwUNYwCkxIuEG7TxjpKdWFSbGK/view?usp=sharing"
+}
