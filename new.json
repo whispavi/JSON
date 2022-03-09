@@ -1,0 +1,16 @@
+{ 
+	"name":"Tori",
+	"lastName":"Vorobei",
+	"age":38,
+	"pet":1,
+	"salary":[
+		{
+			"type":"ruble",
+			"number": 200000
+		},
+		{ 
+			"type":"dollar",
+			"number": 1000
+		}
+	]
+}
